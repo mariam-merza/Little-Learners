@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Little Learners Home Daycare</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="icon" href="/src/little-learners-logo.png">
+    <style></style>
+</head>
+<body>
+
+    <img src="/src/little-learners-banner.png" id="banner">
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#FAQ">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    <div id="home" class="home-section">
+        <header><h1>Welcome to Little Learners Home Daycare!</h1></header>
+        <div class="home">
+            <hr>
+        </div>
+    </div>
+    
+    <div id="about-me" class="about-me-section">
+        <section><h2>About Me</h2></section>
+        <div class="about-me-info">
+            <p>Hi, my name is Reem Maqadsy. I am a licensed home daycare owner
+                located in Whitby, Ontario. I have 15 years of experience working with children and running a daycare
+                from home. I am fully licensed with Bright Minds and first-aid certified. In a world that is rapidly changing everyday, I aim to create a safe and enjoyable space
+                for children to learn and grow. I do educational games, creative play, and various arts and crafts.
+                My backyard is fully fenced and we go outside to play on a daily basis, or depending on the weather.
+                I provide healthy, homemade meals and snacks. <strong>My daycare is a home away from home for your
+                little one.</strong>
+                <hr>
+        </div>
+    </div>
+
+    <div id="services" class="services-provided">
+        <section><h2>Services</h2></section>
+            <div class="my-services">
+            <p>I am offering childcare services in <strong>Whitby</strong>, Ontario.
+                I have the following openings:
+            <ul>
+                <li>Spot 1: Ages 2 and up</li>
+                <li>Spot 2: Ages 2 and up</li>
+                <li>Spot 3: Ages 2 and up</li>
+            </ul>
+            If you are interested, please contact me <a href="#contact">here.</a>
+        </p><hr>
+        </div>
+    </div>
+    
+    <div id="FAQ" class="frequently-asked-questions">
+        <section><h2>Frequently Asked Questions</h2></section>
+            <div class="frequently-asked-questions">
+                <p>
+                    <ol>
+                        <li><strong>How much do you charge?</strong>
+                           <br>My rate is $25 per day. I offer a sibling discount of $20 per child. Before and after school care is $30</li>
+                        <li><strong>Where are you located?</strong>
+                        <br>I am located near Dryden and Garden. My home school is Fallingbrook Public School.
+                        <br>The Julie Payette bus for French Immersion picks up in front of my house.
+                        <br>Ormiston Public School and St. Matthew Catholic School are both within walking range from my house.</li>
+                        <li><strong>How many children do you care for?</strong>
+                        <br>There are currently 4 children under my care.</li>
+                        <li><strong>Do you have space for my child? If not, is there a waiting list and how long is it?</strong>
+                        <br>As of now, I have 3 open positions as listed above in my services. Should these positions be taken,
+                            you can send me a message through my contact section. There will be a waitlist displayed under the header there.</li>
+                        <li><strong>How flexible are pick-up and drop-off times?</strong>
+                        <br>Drop-offs start as early as 5:30am EDT. The latest time for pick-ups is 5:00pm EDT.</li>
+                        <li><strong>Can you accomodate our family's dietary needs?</strong>
+                        <br>I would be pleased to. Simply let me know and I will create a specific meal plan for your child.</li>
+                        <li><strong>What will my child do throughout the day?</strong>
+                        <br>I have a comprehensive meal and activity schedule that I update weekly. Activities include playing in the
+                            backyard, having a dance party, reading and writing, and arts and crafts. There are also daily naps
+                            scheduled in the afternoon.</li>
+                    </ol>
+                </p><hr>
+         </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <div style="text-align:center">
+            <style>
+            /* Basic styling using the box model */
+                * {
+                box-sizing: border-box;
+                }
+            
+                input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+              }
+              
+              input[type=submit] {
+                background-color: #5f5c30;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                cursor: pointer;
+              }
+              
+              input[type=submit]:hover {
+                background-color: #837f43;
+              }
+              
+              /* Style the container/contact section */
+              .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 10px;
+              }
+              
+              /* Create two columns that float next to eachother */
+              .column {
+                float: left;
+                width: 50%;
+                margin-top: 6px;
+                padding: 20px;
+              }
+              
+              /* Clear floats after the columns */
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 600px) {
+                .column, input[type=submit] {
+                  width: 100%;
+                  margin-top: 0;
+                }
+              }
+                </style>
+                <h2>Contact Me</h2>
+                <p>If you are interested in my services, please leave me a message below:</p>
+                </div>
+                <div class="row">
+                  <div class="column">
+                  </div>
+                  <div class="column">
+                    <div style="text-align:center">
+                        <form action="/action_page.php">
+                            <label for="fname">Name: </label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                            <label for="email">Email: </label>
+                            <input type="text" id="email" name="email" placeholder="Your e-mail...">
+                            <label for="message">Message: </label>
+                            <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                            <input type="submit" value="Submit">
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+    <div id="contact-me" class="contact">
+        <section><h2>Contact Me</h2></section>
+        <div class="contact-info">
+            <p>Here are some ways to contact me:
+                <ul>
+                    <li>E-mail me at <a href=mailto:"rmdcare@gmail.com">rmdcare@gmail.com</a></li>
+                    <li>Call me at <a href="tel:416-400-5390">(416)400-5390</a>. If I am unable to respond, please leave a message and I will get back to you as soon as possible.</li>
+                </ul>               
+            </p><hr>
+        </div>
+    </div>
+    
+    <aside><p>Side Note: This page is still a build-in-progress. Some components may not be fully implemented.</p></aside>
+    <footer><p>© 2024 Little Learners</p></footer>
+</body>
+</html>

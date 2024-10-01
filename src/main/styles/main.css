@@ -1,0 +1,44 @@
+/* Background colour for the page */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Background colour for headings 1 and 2 */
+  h1, h2 {
+    color: #DE5D83;
+  }
+
+/* Banner style */
+#banner {
+    width: 100%; /* Set the width to 100% of the parent element */
+    height: 310px; /* Set a fixed height for the banner */
+    object-fit: cover; /* Ensure the image covers the entire width */
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #837f43;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #5f5c30;
+    color: white;
+  }
