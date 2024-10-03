@@ -13,5 +13,5 @@ It incorporates HTML, CSS and JavaScript to promote the business and provide a m
 
 ## Contact
 
-Mariam Merza - [marymerza4@gmail.com]
-Project Link - [https://github.com/mariam-merza/Little-Learners]
+Mariam Merza - [marymerza4@gmail.com](marymerza4@gmail.com)
+Project Link - [https://github.com/mariam-merza/Little-Learners](https://github.com/mariam-merza/Little-Learners)
